@@ -8,7 +8,7 @@ class BasicClass:
 
 if __name__ == '__main__':
     myClass = BasicClass()  # creates a new instance of the class
-    print('myClass:', myClass.some_int, myClass.some_string, myClass.some_list)
+    print('myClass :', myClass.some_int, myClass.some_string, myClass.some_list)
 
     # change values
     myClass.some_int = 111
